@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
+# 🏠 RentMap – Rental House Finder Web Application
 
-## Project info
+RentMap is a modern web application that helps users discover rental houses using an interactive map interface.
+Users can explore available rental properties based on location, view property details, and make better housing decisions.
 
-**URL**: https://lovable.dev/projects/09ec4704-fb64-43bc-9a38-0e705d3c5cd1
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+* 📍 Interactive Map-based property search
+* 🔎 Location-based filtering
+* 🏡 Property details view
+* ⚡ Fast and responsive UI
+* 📱 Mobile-friendly design
+* 🌐 Real-time map rendering using Mapbox
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/09ec4704-fb64-43bc-9a38-0e705d3c5cd1) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Frontend:** React + TypeScript
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS
+* **UI Components:** shadcn/ui
+* **Maps API:** Mapbox
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📂 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```
+Rentmap-final-project/
+│
+├── public/              # Static assets
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── pages/           # Application pages
+│   ├── hooks/           # Custom React hooks
+│   ├── utils/           # Helper functions
+│   └── App.tsx          # Main app component
+│
+├── index.html
+├── package.json
+└── vite.config.ts
+```
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚙️ Installation & Setup
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 1️⃣ Clone the Repository
 
-# Step 3: Install the necessary dependencies.
-npm i
+```
+git clone https://github.com/paerarasu/Rentmap-final-project.git
+cd Rentmap-final-project
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 2️⃣ Install Dependencies
+
+```
+npm install
+```
+
+### 3️⃣ Run the Development Server
+
+```
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Application will run at:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+http://localhost:5173
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🌍 Deployment
 
-## What technologies are used for this project?
+You can deploy this project easily using:
 
-This project is built with:
+* **Vercel**
+* **Netlify**
+* **GitHub Pages**
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📸 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/09ec4704-fb64-43bc-9a38-0e705d3c5cd1) and click on Share -> Publish.
+<img width="1453" height="827" alt="Screenshot 2026-03-18 at 4 13 25 PM" src="https://github.com/user-attachments/assets/ab6e3537-c074-4546-a4fd-9f09f64a0c58" />
+<img width="1457" height="825" alt="Screenshot 2026-03-18 at 4 13 10 PM copy" src="https://github.com/user-attachments/assets/30adc1cc-4465-4d14-8133-c14eb9a410cf" />
+<img width="1458" height="830" alt="Screenshot 2026-03-18 at 4 13 49 PM" src="https://github.com/user-attachments/assets/91342be8-5c8c-46e1-94d2-ed0095cbc84e" />
+<img width="1470" height="828" alt="Screenshot 2026-03-18 at 4 14 07 PM" src="https://github.com/user-attachments/assets/a94a9444-5b56-4941-8d1e-b367e4d70dff" />
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🎯 Future Improvements
+
+* User authentication
+* Property booking system
+* Backend integration
+* Favorites / Wishlist feature
+* Advanced search filters
+
+---
+
+## 👨‍💻 Author
+
+**Paerarasu**
+
+GitHub: https://github.com/paerarasu
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
